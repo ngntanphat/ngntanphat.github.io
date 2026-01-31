@@ -1,0 +1,77 @@
+:root {
+    /* --bg: #ffffff; */
+    --bg: #e6f5ff;
+}
+
+html {
+    background-color: var(--bg);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.center {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #a0a0a0;
+    opacity: 50%;
+}
+
+img {
+    transition-duration: 1s;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+img:hover{
+    transition-duration: 1s;
+    border-radius: 50%;
+    background: #e6f5ff;
+    /* box-shadow:  16px 16px 10px #a1acb3 */
+    /* box-shadow: 5px 5px 6px #7e7f86, -5px -5px 6px #ffffff; */
+}
+
+a {
+    font-size: 20px;
+    transition-duration: 0.5s;
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    opacity: 75%;
+}
+
+#GitHub:hover {
+    background-color: rgb(51, 51, 51);
+    opacity: 100%;
+    color: #ffffff;
+}
+
+#Codewars:hover {
+    background-color: rgb(235, 95, 95);
+    opacity: 100%;
+    color: #ffffff;
+}
+
+.links {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    text-align: center;
+}
