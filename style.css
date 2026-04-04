@@ -67,6 +67,12 @@ a {
     color: #ffffff;
 }
 
+#Games:hover {
+    background-color: rgb(140, 0, 255);
+    opacity: 100%;
+    color: #ffffff;
+}
+
 .links {
     display: flex;
     align-content: center;
